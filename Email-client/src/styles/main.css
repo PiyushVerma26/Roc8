@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+
+  color: #636363;
+}
+body {
+  height: 100vh;
+  overflow: hidden !important;
+  background-color: #f4f5f9;
+}
+
+#app {
+  width: 100%;
+  padding: 40px 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#tab {
+  width: 100%;
+  text-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#message {
+  overflow: hidden;
+  display: flex;
+  height: 85%;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+
+#left {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.read {
+  background-color: #f2f2f2;
+}
+
+#right {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+  padding-bottom: 40px;
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#menu {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: black;
+  background-color: white;
+  z-index: 10;
+  padding: 0px 8px;
+}
+
+#dropDown {
+  width: 150px;
+  min-height: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: aqua;
+  padding: 10px;
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  display: none;
+}
+
+.listItem {
+  list-style: none;
+  background-color: aqua;
+  padding: 10px;
+  text-wrap: nowrap;
+}
+.listItem:hover {
+  background-color: #555;
+  color: white;
+}
+
+#pagination {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.pageNumberBtn {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 8px;
+  font-weight: bold;
+  color: black;
+}
+
+#modal {
+  display: none;
+  position: absolute;
+  inset: 0;
+  background-color: gray;
+  height: 100vh;
+  width: 100%;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+  border: 3px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}

@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+  #app {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #right {
+    display: none;
+  }
+  #tab {
+    justify-content: center;
+    gap: 10px;
+  }
+  .leftName {
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+  }
+}

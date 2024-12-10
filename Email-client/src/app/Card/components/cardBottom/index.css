@@ -1,0 +1,12 @@
+.bottomDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.favItem {
+  color: #e54065;
+  margin-left: 10px;
+  font-weight: 500;
+}

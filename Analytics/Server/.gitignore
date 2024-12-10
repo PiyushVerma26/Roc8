@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.production
+
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# Testing outputs
+coverage/
+
+# Temporary files
+tmp/
+*.tmp
+*.swp
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore local development configuration files
+local.env
+
+# Ignore lint and prettier cache
+.eslintcache
+.prettierignore

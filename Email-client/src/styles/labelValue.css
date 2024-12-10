@@ -1,0 +1,20 @@
+.labelValue {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.value {
+  font-weight: bold;
+}
+
+.emailandName {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.key {
+  min-width: 50px;
+}
